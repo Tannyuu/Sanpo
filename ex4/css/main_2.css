@@ -1,0 +1,29 @@
+#container{
+    width:700px;
+    margin:0 auto;
+  }
+  header{
+    height:200px;
+    background-color:pink;
+  }
+  #contents{
+    display: flex;
+    align-items: center;
+  }
+  main{
+    flex:1;
+    height:500px;
+    background-color:aquamarine;
+    order: 1;
+    flex-grow: 3;
+  }
+  aside{
+    width:200px;
+    background-color:yellow;
+    order: 2;
+    flex-grow: 1;
+  }
+  footer{
+    height:100px;
+    background-color:aqua;
+  }
